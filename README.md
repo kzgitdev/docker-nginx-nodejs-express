@@ -61,9 +61,9 @@ $ wget https://....*main.zip
 ```
 ### STEP7
 edit .env file
-USERNAME is username
-UID is user id
-APP_DIR is node.js application directory.
+- USERNAME is username
+- UID is user id
+- APP_DIR is node.js application directory.
 
 ### STEP8
 run docker-compose command.
