@@ -5,4 +5,6 @@
 - OS: Ubuntu 20.04 64bit ... 64GB miroSD card
 - docker
 - docker-compose
+  - network: local
 
+## containers
