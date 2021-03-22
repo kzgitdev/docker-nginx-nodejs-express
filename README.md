@@ -44,7 +44,7 @@ Docker version 19.03.8, build afacb8b7f0
 $  docker-compose --version
 docker-compose version 1.28.5, build unknown
 ```
-### STEP3
+### STEP5
 test docker command
 ```
 $ docker run hello-world
@@ -52,5 +52,31 @@ Hello from Docker!
  :
  :
 ```
+### STEP6
+get the git files in this repository or wget *main.zip
+```
+$ git clone ....
+  or
+$ wget https://....*main.zip
+```
+### STEP7
+edit .env file
+USERNAME is username
+UID is user id
+APP_DIR is node.js application directory.
 
+### STEP8
+run docker-compose command.
+```
+$ docker-compose build
+$ docker-compuse up -d
+```
+### STEP9
+access the web server with web browser or curl command.
+```
+$ curl http://192.186.11.33
+$ curl http://192.168.11.33
+Hello World
+```
+success!!
 
