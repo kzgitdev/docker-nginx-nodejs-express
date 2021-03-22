@@ -23,6 +23,34 @@ install docker package
 ### STEP2
 install docker-compose using pip3.
 if you use apt-get or apt command, you could not install docker-compose latest version.
+Please exec the setup-docker-compose.sh file.
+```
+# chown root:root ./setup-docker-compose.sh
+# ./setup-docker-compose.sh
+```
+### STEP3
+set user permission
+```
+# chmod -aG docker username
+  or
+# gpasswrd a docker username
+```
+### STEP4
+check the version docker and docker-compose
+```
+$ docker --version
+Docker version 19.03.8, build afacb8b7f0
 
-please exec the setup-docker-compose.sh file.
+$  docker-compose --version
+docker-compose version 1.28.5, build unknown
+```
+### STEP3
+test docker command
+```
+$ docker run hello-world
+Hello from Docker!
+ :
+ :
+```
+
 
